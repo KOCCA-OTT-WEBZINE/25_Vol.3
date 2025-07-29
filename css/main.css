@@ -538,6 +538,18 @@ div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a
 /* =====================
    만족도 조사
 ===================== */
+#survey-banner {
+  width: 100%;
+  background-color: var(--gray100);
+}
+
+#survey-banner > div {
+  max-width: 1640px;
+  padding: 0 40px;
+  margin: 0 auto;
+  background-color: var(--gray100);
+}
+
 .survey-link > img:first-child {
   display: block;
   width: 100%;
