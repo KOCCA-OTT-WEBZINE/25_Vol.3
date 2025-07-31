@@ -618,7 +618,7 @@
 
 .reference-items {
   font-size: var(--text-md);
-  line-height: 1.4;
+  line-height: 1.6;
   display: flex;
   flex-direction: column;
   gap: 6px;
