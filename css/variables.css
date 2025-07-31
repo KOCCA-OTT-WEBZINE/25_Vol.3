@@ -1,6 +1,13 @@
 :root {
   /* brand */
-  --brand100: #FF6B00;
+  --brand700: #B34C00;
+  --brand600: #D95C00;
+  --brand500: #FF6B00;
+  --brand400: #FFA251;
+  --brand300: #FFC48C;
+  --brand200: #FFE0BF;
+  --brand100: #FFF5EB;
+
 
   /* grayscale */
   --grayWhite: #FFFFFF;

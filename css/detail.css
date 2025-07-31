@@ -59,7 +59,7 @@
 }
 
 .banner-meta .banner-number {
-  background-color: var(--brand100);
+  background-color: var(--brand500);
   padding: 4px 16px;
   border-radius: 9999px;
   font-weight: 600;
@@ -122,7 +122,7 @@
   border-radius: 12px;
 
   color: white;
-  background-color: var(--brand100);
+  background-color: var(--brand400);
 
   margin-top: 20px;
   margin-bottom: 16px;
@@ -187,7 +187,7 @@
 
 .datapoint-lead-label {
   font-weight: 600;
-  background-color: var(--brand100);
+  background-color: var(--brand500);
   color: white;
   width: fit-content;
   padding: 0 16px;
@@ -262,7 +262,7 @@
   border-radius: 12px;
 
   color: white;
-  background-color: var(--brand100);
+  background-color: var(--brand500);
 
   margin-top: 20px;
   margin-bottom: 4px;
@@ -349,7 +349,7 @@
     transform: translateY(-50%);
     width: 4px;
     height: 80%;
-    background-color: var(--brand100);
+    background-color: var(--brand500);
   }
 }
 
@@ -372,7 +372,7 @@
 .subtitle-bar-mobile {
   width: 22px;
   height: 4px;
-  background-color: var(--brand100);
+  background-color: var(--brand500);
 }
 
 @media (min-width: 768px) {
@@ -384,7 +384,7 @@
 .subtitle-text {
   font-size: var(--title-Manuscript);
   font-weight: 600;
-  color: var(--brand100);
+  color: var(--brand500);
 }
 
 /* =====================
@@ -418,68 +418,44 @@
 /* =====================
    Law
 ===================== */
-.law-wrap {
+.opinion-wrap {
   display: flex;
   flex-direction: column;
-  align-items: center;
 
-  gap: 24px;
-  padding:24px;
+  gap: 16px;
+  padding:16px;
   border-radius: 12px;
   background-color:var(--gray100);
 }
 
-.law-title {
-  text-align: center;
-  color: var(--gray600);
-}
-
-.law-title > p:first-child {
-  font-size: 20px;
-  font-weight: 600;
-  margin-bottom: 4px;
-}
-.law-title > p:last-child {
-  font-size: 14px;
-  font-weight: 400;
-  color: var(--gray400);
-}
-
-.law-des {
+.opinion-contents {
   font-size: 16px;
-  line-height: 1.8;
+  font-style: italic;
+  line-height: 1.6;
+  text-align: justify;
+}
+
+.opinion-interviewer {
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--brand600);
   text-align: justify;
 }
 
 @media (max-width: 768px) {
-  .law-wrap {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
+  .opinion-wrap {
     gap: 12px;
     padding:16px;
     border-radius: 12px;
-    background-color:var(--gray100);
   }
 
-  .law-title {
-    text-align: center;
-    color: var(--gray600);
+  .opinion-contents {
+    font-size: 14px;
+    line-height: 1.8;
+    text-align: justify;
   }
 
-  .law-title > p:first-child {
-    font-size: 16px;
-    font-weight: 600;
-    margin-bottom: 4px;
-  }
-  .law-title > p:last-child {
-    font-size: 12px;
-    font-weight: 400;
-    color: var(--gray400);
-  }
-
-  .law-des {
+  .opinion-interviewer {
     font-size: 14px;
     line-height: 1.8;
     text-align: justify;
@@ -509,7 +485,7 @@
 }
 
 .text-brand {
-  color: var(--brand100);
+  color: var(--brand500);
 }
 
 .section-image {
@@ -542,7 +518,7 @@
 }
 
 .table-number {
-  color: var(--brand100);
+  color: var(--brand500);
 }
 
 .table-scroll {
@@ -558,7 +534,7 @@
 }
 
 .responsive-table thead tr {
-  background-color: var(--brand100);
+  background-color: var(--brand500);
   color: white; 
 }
 
@@ -720,7 +696,7 @@
 .author-name {
   font-size: var(--title-sectionEnglish);
   font-weight: 600;
-  color: var(--brand100);
+  color: var(--brand500);
   line-height: 1.4;
 }
 
@@ -894,7 +870,7 @@
 
 #progress-bar {
   height: 100%;
-  background-color: var(--brand100);
+  background-color: var(--brand500);
   width: 0%;
   transition: all 0.2s;
 }
@@ -923,7 +899,7 @@
 .top-button-inner {
   width: 48px;
   height: 48px;
-  background-color: var(--brand100);
+  background-color: var(--brand500);
   border-radius: 50%;
   display: flex;
   align-items: center;
