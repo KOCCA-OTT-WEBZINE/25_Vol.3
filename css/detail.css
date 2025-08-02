@@ -628,7 +628,7 @@
 }
 
 .reference-items li {
-  word-break: keep-all;
+  word-break: break-all;
   list-style: none;
 }
 .reference-items a:hover {
