@@ -298,7 +298,7 @@ div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a
 
 .section-title-wrap {
   display: flex;
-  align-items: flex-end;
+  align-items: center;
   gap: 24px;
   margin-bottom: 28px;
   margin-left:4px;
@@ -310,6 +310,38 @@ div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a
   align-items: flex-start;
   gap: 8px;
   margin-bottom: 28px;
+}
+
+@keyframes float-horizontal {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(-12px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes float-vertical {
+  0% {
+    transform: translateY(8px);
+  }
+  50% {
+    transform: translateY(0px);
+  }
+  100% {
+    transform: translateY(8px);
+  }
+}
+
+.subject-img-pc {
+  animation: float-horizontal 2s ease-in-out infinite;
+}
+
+.subject-img-m {
+  animation: float-vertical 2s ease-in-out infinite;
 }
 
 #data-point {
@@ -385,9 +417,8 @@ div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a
 }
 
 .subject-img-m {
-  height: 44px;
+  height: 52px;
   display: block;
-  margin-bottom: 16px;
 }
 
 @media (min-width: 1024px) {
@@ -572,6 +603,13 @@ div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a
   .survey-link > img:last-child {
     display: block;
   }
+
+  #survey-banner > div {
+  max-width: 768px;
+  padding: 0 20px;
+  margin: 0 auto;
+  background-color: var(--gray100);
+}
 }
 
 /* =====================
