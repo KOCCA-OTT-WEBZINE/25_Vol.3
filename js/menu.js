@@ -52,7 +52,7 @@ const trendItem = {
     author: { name: "김규연", affiliation: "미래에셋증권 리서치센터 연구원" },
   },
   2: {
-    title: "<케이팝 데몬 헌터스>로 본 K-컬처의 변주와 확장 가능성",
+    title: "&lt;케이팝 데몬 헌터스&gt;로 본 K-컬처의 변주와 확장 가능성",
     author: { name: "윤현정", affiliation: "강남대학교 문화콘텐츠학과 조교수" },
   },
 };
