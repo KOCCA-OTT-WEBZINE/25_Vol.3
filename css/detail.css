@@ -628,7 +628,7 @@
 }
 
 .reference-items li {
-  word-break: break-all;
+  word-break: keep-all;
   list-style: none;
 }
 .reference-items a:hover {
@@ -803,6 +803,7 @@
 
 .post-nav-title {
   font-size: var(--text-md);
+  word-break: keep-all;
 }
 
 .post-nav.prev .post-nav-title {
