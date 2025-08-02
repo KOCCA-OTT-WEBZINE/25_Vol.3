@@ -1,81 +1,79 @@
 const spotlightItem = {
   0: {
-    title: "방송영상콘텐츠의 다음 장을 여는 AI 기술과 창작자의 역할",
-    author: { name: "최돈현", affiliation: "소이랩 대표" },
+    title: "방송영상콘텐츠의 다양성, 어디까지 왔는가",
   },
   1: {
-    title: "‘어떻게 만들까’에서 ‘무엇을 만들까’의 시대로: AI 시대, 광고영상 제작의 변화와 전망",
-    author: { name: "박찬수", affiliation: "HSAD Chief AI Director" },
+    title: "재현과 참여의 확장: 플랫폼 시대에도 다양성이 필요한 이유",
+    author: { name: "박채은", affiliation: "독립미디어연구소 공동대표" },
   },
   2: {
-    title: "AI가 제작한 ‘지브리’ 스타일은 저작권 침해일까: AI 창작물의 법적 보호를 둘러싼 쟁점과 논의",
-    author: { name: "김종균", affiliation: "특허청 상표디자인심사국 심사관" },
+    title: "K-영상콘텐츠에 문화 감수성 담는 4가지 방법",
+    author: { name: "이재원", affiliation: "성균관대학교 컬처앤테크놀로지융합전공 초빙교수" },
   },
   3: {
-    title: "AI 생성물 표시제 도입에 따른 주요 쟁점",
-    author: { name: "박만수", affiliation: "한국콘텐츠진흥원 콘텐츠산업정책연구센터 산업정책팀 선임연구원" },
+    title: "방송영상콘텐츠의 다양성 확장, 기회인가 위기인가",
+    author: { name: "임정수", affiliation: "서울여자대학교 언론영상학부 교수" },
   },
 };
 
 const globalItem = {
   0: {
-    title: "스트리밍을 넘어서: 미국 OTT의 실시간 콘텐츠 도전과 진화",
-    author: { name: "유재성", affiliation: "위스콘신대학교 그린베이캠퍼스 조교수" },
+    title: "모두가 팬덤을 원한다: 영상콘텐츠 플랫폼 기업들의 팬 전략",
+    author: { name: "차우진", affiliation: "문화평론가" },
   },
   1: {
-    title: "글로벌 콘텐츠 제작비 급상승 원인과 대응 전략",
-    author: { name: "최선영", affiliation: "연세대학교 커뮤니케이션대학원 객원교수" },
+    title: "글로벌 시장으로 나아가는 동남아시아 영상 콘텐츠",
+    author: { name: "부경환ㅣ", affiliation: "서울대학교 아시아언어문명학부 강사" },
   },
   2: {
-    title: "글로벌 스트리밍 플랫폼의 수익성 혁신, FAST가 이끈다",
-    author: { name: "김조한", affiliation: "뉴 아이디 상무" },
+    title: "「영국의 현대 산업 전략」의 특징과 의미",
+    author: { name: "정윤경", affiliation: "순천향대학교 미디어커뮤니케이션학과 교수" },
   },
 };
 
 const peopleItem = {
   0: {
-    title: "AI 콘텐츠 제작, 영상의 기초에서 답을 찾다",
-    author: { name: "김광집", affiliation: "스튜디오메타케이 대표" },
+    title: "세상에 대한 관심으로 다양성을 이야기하다",
+    author: { name: "최복희", affiliation: "시사교양 독립PD" },
   },
   1: {
-    title: "창작의 동반자이자 지렛대로, AI와 함께 성장하다",
-    author: { name: "현해리", affiliation: "무암 대표" },
+    title: "새로운 시도를 통해 드라마의 다양성 확장을 꿈꾸다",
+    author: { name: "장신애", affiliation: "스튜디오드래곤 CP" },
   },
 };
 
 const trendItem = {
   0: {
-    title: "미드 명가, HBO의 국내 상륙기",
+    title: "사회를 바꾸는 관점의 전환, 글로벌 다양성 포맷 소개",
     author: { name: "김헌", affiliation: "한양대학교 ERICA 미디어학과 조교수" },
   },
   1: {
-    title: "왜 다시, <수사반장>인가: OTT 시대의 IP 리부트 전략",
-    author: { name: "홍석우", affiliation: "MOst267 EP" },
+    title: "하반기 국내 OTT 시장 전망: 쿠팡플레이와 티빙의 제휴 멤버십과 스포츠 콘텐츠 전략 양상",
+    author: { name: "김규연", affiliation: "미래에셋증권 리서치센터 연구원" },
   },
   2: {
-    title: "스포츠 다큐멘터리, 새로운 카테고리가 되다",
-    author: { name: "조은성", affiliation: "다큐멘터리 감독" },
-  },
-  3: {
-    title: "국내 방송영상 제작 생태계 구조와 현황",
-    author: { name: "김 숙", affiliation: "컬쳐미디어랩 대표" },
+    title: "<케이팝 데몬 헌터스>로 본 K-컬처의 변주와 확장 가능성",
+    author: { name: "윤현정", affiliation: "강남대학교 문화콘텐츠학과 조교수" },
   },
 };
 
 const dataPointItem = {
   0: {
-    title: "2024-2025 글로벌 방송 포맷 시장 동향과 트렌드",
+    title: "국내 방송 드라마 슬롯과 시청률 변화",
   },
   1: {
-    title: "주요 동아시아 국가의 로컬 OTT 서비스 사업자 현황",
+    title: "글로벌 권역별 동향 분석: 2025년 상반기 넷플릭스 K-콘텐츠 인기 순위",
+  },
+  3: {
+    title: "글로벌 미디어 사업자의 주가 동향과 M&A: 주요 글로벌 OTT 사업자 중심으로",
   },
 };
 
 // 섹션별 정보 통합
 const contentMap = [
   { label: "스포트라이트", path: "spotlight", items: spotlightItem },
-  { label: "글로벌 마켓 리포트", path: "global", items: globalItem },
   { label: "피플 인사이트", path: "people", items: peopleItem },
+  { label: "글로벌 마켓 리포트", path: "global", items: globalItem },
   { label: "트렌드 하이라이트", path: "trend", items: trendItem },
   { label: "데이터 포인트", path: "data", items: dataPointItem },
 ];

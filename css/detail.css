@@ -165,7 +165,6 @@
 .datapoint-lead-wrapper {
   padding: 40px 20px;
   background-color: var(--gray100);
-  line-height: 1.8;
 }
 
 .datapoint-lead-inner {
@@ -191,13 +190,14 @@
   color: white;
   width: fit-content;
   padding: 0 16px;
+  line-height: 1.8;
 }
 
 .datapoint-lead-paragraphs {
   display: flex;
   flex-direction: column;
-  gap: 16px;
-
+  gap: 8px;
+  line-height: 1.6;
 }
 
 .datapoint-lead-content {
@@ -210,7 +210,8 @@
 }
 
 .datapoint-lead-content > div > p:first-child {
-  width: 32px;
+  width: fit-content;
+  margin-right: 8px;
 }
 .datapoint-lead-content > div > p:last-child {
   width: fit-content;
