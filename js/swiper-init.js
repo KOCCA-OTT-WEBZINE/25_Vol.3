@@ -80,7 +80,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   new Swiper(".main-banner-swiper", {
     loop: false,
-    // autoplay: { delay: 3000 },
+    autoplay: { delay: 3000 },
     pagination: {
       el: ".main-banner-swiper .swiper-pagination",
       clickable: true,
