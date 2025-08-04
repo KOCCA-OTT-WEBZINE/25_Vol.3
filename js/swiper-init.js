@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", () => {
     {
       sectionName: "피플 인사이트",
       theme: "방송영상콘텐츠 다양성을 실천하는 제작자를 만나다!",
-      item: "시사교양, 최복희 PD<br>스튜디오드래곤, 장신애 CP",
+      item: "EBS <세상을 비집고> 최복희 PD<br>tvN <미지의 서울> 장신애 CP",
       img: "./img/manuscript5/banner.png",
       imgMobile: "./img/manuscript5/banner-m.png",
       bgPosition: "right center",
@@ -39,7 +39,7 @@ document.addEventListener("DOMContentLoaded", () => {
     {
       sectionName: "데이터 포인트",
       theme: "",
-      item: "국내 방송 드라마 슬롯과 시청률 변화",
+      item: "국내 방송 드라마 슬롯 변화와 장르별 시청률 현황",
       img: "./img/manuscript13/banner.png",
       imgMobile: "./img/manuscript13/banner-m.png",
       bgPosition: "left center",
@@ -79,7 +79,7 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   new Swiper(".main-banner-swiper", {
-    loop: false,
+    loop: true,
     autoplay: { delay: 3000 },
     pagination: {
       el: ".main-banner-swiper .swiper-pagination",
