@@ -7,7 +7,7 @@ const spotlightItem = {
     author: { name: "박채은", affiliation: "독립미디어연구소 공동대표" },
   },
   2: {
-    title: "K-영상콘텐츠에 문화 감수성 담는 4가지 방법",
+    title: "K-영상콘텐츠에 문화 감수성을 담는 4가지 방법",
     author: { name: "이재원", affiliation: "성균관대학교 컬처앤테크놀로지융합전공 초빙교수" },
   },
   3: {
@@ -22,7 +22,7 @@ const globalItem = {
     author: { name: "차우진", affiliation: "문화평론가" },
   },
   1: {
-    title: "글로벌 시장으로 나아가는 동남아시아 영상 콘텐츠",
+    title: "글로벌 시장으로 나아가는 동남아시아 영상콘텐츠",
     author: { name: "부경환ㅣ", affiliation: "서울대학교 아시아언어문명학부 강사" },
   },
   2: {
@@ -34,7 +34,7 @@ const globalItem = {
 const peopleItem = {
   0: {
     title: "세상에 대한 관심으로 다양성을 이야기하다",
-    author: { name: "최복희", affiliation: "시사교양 독립PD" },
+    author: { name: "최복희", affiliation: "독립PD" },
   },
   1: {
     title: "새로운 시도를 통해 드라마의 다양성 확장을 꿈꾸다",
@@ -45,7 +45,6 @@ const peopleItem = {
 const trendItem = {
   0: {
     title: "사회를 바꾸는 관점의 전환, 글로벌 다양성 포맷 소개",
-    author: { name: "김헌", affiliation: "한양대학교 ERICA 미디어학과 조교수" },
   },
   1: {
     title: "하반기 국내 OTT 시장 전망: 쿠팡플레이와 티빙의 제휴 멤버십과 스포츠 콘텐츠 전략 양상",
@@ -59,7 +58,7 @@ const trendItem = {
 
 const dataPointItem = {
   0: {
-    title: "국내 방송 드라마 슬롯과 시청률 변화",
+    title: "국내 방송 드라마 슬롯 변화와 장르별 시청률 현황",
   },
   1: {
     title: "글로벌 권역별 동향 분석: 2025년 상반기 넷플릭스 K-콘텐츠 인기 순위",
